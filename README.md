@@ -176,13 +176,45 @@ curl -X PUT http://localhost:8001/movies/1 \
 # Delete movie
 curl -X DELETE http://localhost:8001/movies/1
 ```
+## Project Structure
+
+├── LICENSE
+
+├── README.md
+
+├── go.mod
+
+├── go.sum
+
+├── main.go
+
+└── crudapi.exe (compiled binary)
+
+## Future Enhancements
+
+ Add database persistence (PostgreSQL/MongoDB)
+ Implement input validation
+ Add authentication and authorization
+ Include unit tests
+ Add logging middleware
+ Implement pagination for movie lists
+ Add search functionality
+
+## Contributing
+
+Fork the repository
+Create a feature branch (git checkout -b feature/new-feature)
+Commit your changes (git commit -am 'Add new feature')
+Push to the branch (git push origin feature/new-feature)
+Create a Pull Request
 
 ## Notes
 
-- This is a simple in-memory implementation - data will be lost when the server restarts
-- Movie IDs are generated randomly using `rand.Intn(100000000)`
-- The API uses JSON for all request/response bodies
-- No authentication or validation is implemented
+This is a simple in-memory implementation - data will be lost when the server restarts
+Movie IDs are generated randomly using rand.Intn(100000000)
+The API uses JSON for all request/response bodies
+No authentication or validation is implemented
+The crudapi.exe is the compiled Windows executable
 
 ## Demo Video
 Watch a screen recording demonstration of the API in action:
