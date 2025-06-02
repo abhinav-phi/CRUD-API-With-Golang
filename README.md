@@ -188,6 +188,10 @@ curl -X DELETE http://localhost:8001/movies/1
 Watch a screen recording demonstration of the API in action:
 
 
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
 ## Dependencies
 
 - [Gorilla Mux](https://github.com/gorilla/mux) - HTTP router and URL matcher
