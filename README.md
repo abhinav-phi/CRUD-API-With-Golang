@@ -12,6 +12,13 @@ A simple REST API built with Go for managing a movie collection. This API provid
 - Delete a movie
 - In-memory storage (data persists only during runtime)
 
+## Overview - Flowchart
+![Image](https://github.com/user-attachments/assets/db22d220-2581-4bda-98c6-60c06e7f9133)
+
+## Demo Video
+
+Watch a screen recording demonstration of the API in action: (https://tinyurl.com/bvhtbyyk)
+
 ## Data Structure
 
 ### Movie
@@ -215,10 +222,6 @@ Movie IDs are generated randomly using rand.Intn(100000000)
 The API uses JSON for all request/response bodies
 No authentication or validation is implemented
 The crudapi.exe is the compiled Windows executable
-
-## Demo Video
-Watch a screen recording demonstration of the API in action:
-
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
