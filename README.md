@@ -1,5 +1,4 @@
-# CRUD-API-With-Golang
-# Movies API
+# Movies-CRUD-API
 
 A simple REST API built with Go for managing a movie collection. This API provides CRUD (Create, Read, Update, Delete) operations for movies with basic director information.
 
