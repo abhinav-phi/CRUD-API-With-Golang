@@ -13,11 +13,14 @@ A simple REST API built with Go for managing a movie collection. This API provid
 - In-memory storage (data persists only during runtime)
 
 ## Overview - Flowchart
-![Image](https://github.com/user-attachments/assets/db22d220-2581-4bda-98c6-60c06e7f9133)
+
+> <img src="https://github.com/user-attachments/assets/dcfc9a60-f49c-409b-8a0c-1d337e92526c" width="600" />
 
 ## Demo Video
 
-Watch a screen recording demonstration of the API in action: (https://tinyurl.com/bvhtbyyk)
+Watch a screen recording demonstration of the API in action: 
+
+> https://github.com/user-attachments/assets/27b0b49f-a7ff-4884-a098-99f93ce83068
 
 ## Data Structure
 
@@ -185,17 +188,14 @@ curl -X DELETE http://localhost:8001/movies/1
 ```
 ## Project Structure
 
+```text
 ├── LICENSE
-
 ├── README.md
-
 ├── go.mod
-
 ├── go.sum
-
 ├── main.go
-
 └── crudapi.exe (compiled binary)
+```
 
 ## Future Enhancements
 
@@ -224,9 +224,19 @@ No authentication or validation is implemented
 The crudapi.exe is the compiled Windows executable
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
 ## Dependencies
 
 - [Gorilla Mux](https://github.com/gorilla/mux) - HTTP router and URL matcher
+
+  ## 📧 Contact
+
+**GitHub** : [abhinav-phi](https://github.com/abhinav-phi)
+
+**Project Link** : [click here](https://github.com/abhinav-phi/CRUD-API-With-Golang)
+
+---
+
+⭐ If you found this project helpful, please give it a star!
